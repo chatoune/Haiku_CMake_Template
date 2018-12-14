@@ -4,6 +4,6 @@
 #include "static.h"
 
 TEST(test_template, OutputTest) {
-	EXPECT_EQ(true, static_func());
-	EXPECT_EQ(false, dynamic_func());
+	EXPECT_EQ(false, static_func());
+	EXPECT_EQ(true, dynamic_func());
 }

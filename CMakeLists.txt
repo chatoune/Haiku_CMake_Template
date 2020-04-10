@@ -8,7 +8,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # set additional flags
-set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++11")
 set(CMAKE_CXX_DEBUG "-g -O0")
 set(CMAKE_CXX_RELEASE "-O3")
 
